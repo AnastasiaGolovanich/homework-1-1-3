@@ -1,11 +1,14 @@
 /*Promo Style*/
+.background-promo{
+    background: #2B4074;
+}
 .promo {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 60px 155px 60px 158px;
-    background: #2B4074;
+
 }
 
 .promo-text1 {

@@ -1,7 +1,9 @@
 /* Style the header */
-
-.header {
+.background-header{
     background: #2B4074;
+}
+.header {
+
 
     display: flex;
     flex-direction: row;

@@ -55,17 +55,14 @@
 
     margin-top: 35px;
 }
-.testimonial .owl-carousel .owl-nav button.owl-next,
-.testimonial .owl-carousel .owl-nav button.owl-prev,
-.testimonial .owl-carousel button.owl-dot.active {
-    background: url(../../images/oval-testimolial-hover.png) no-repeat!important;
-    /*width: 12px;*/
-    /*height: 12px;*/
-}
-.testimonial .owl-carousel .owl-nav button.owl-next,
-.testimonial .owl-carousel .owl-nav button.owl-prev,
 .testimonial .owl-carousel button.owl-dot {
-    background: url(../../images/oval-testimolial.png) no-repeat!important;
-    /*width: 12px;*/
-    /*height: 12px;*/
+    background: #2B4074;
+    border: 1px solid #2B4074;
+    border-radius: 50px;
+}
+.testimonial .owl-carousel button.owl-dot.active {
+    background: transparent;
+    border: 1px solid #2B4074;
+    border-radius: 50px;
+
 }

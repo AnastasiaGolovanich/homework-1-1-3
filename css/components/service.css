@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     width: 34%;
-    padding: 90px 62px 122px 62px;
+    margin: 90px 62px 122px 62px;
     text-align: left;
 }
 
@@ -18,6 +18,8 @@
     /*flex-direction: column;*/
     flex-wrap: wrap;
     /*width: 77%;*/
+    /*border-top: 1px solid #F9F6E5;*/
+    /*column-count: 2;*/
 }
 
 .service .feature {
@@ -25,11 +27,13 @@
     height: auto;
     /*background-color: aquamarine;*/
     border-left: 1px solid #F9F6E5;
+    border-right: 1px solid #F9F6E5;
     border-bottom: 1px solid #F9F6E5;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 80px 20px 80px 20px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -109,7 +113,7 @@
 
     text-align: center;
     letter-spacing: 2px;
-
+    white-space: nowrap;
     color: #2B4074;
 }
 
@@ -137,8 +141,22 @@
     line-height: 68px;
 
     color: #2B4074;
-}
 
+    position: relative;
+}
+.service .description .title:after{
+    display: none;
+    content: "";
+    width: 100px;
+    height: 8px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    background: #2B4074;
+}
 .service .description .sub-title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -158,7 +176,8 @@
     height: 10px;
     position: absolute;
     bottom: -40px;
-    left: 0px;
+    left: 0;
+
     background: #2B4074;
 }
 

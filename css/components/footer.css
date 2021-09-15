@@ -1,5 +1,8 @@
-.footer {
+.background-footer{
     background: #2B4074;
+}
+.footer {
+
     padding: 165px 0px 106px 0px;
     position: relative;
     display: flex;
@@ -26,7 +29,8 @@
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 2px;
-    text-align: start;
+    align-self: flex-start;
+    margin-left: 150px;
 
     color: #FFFFFF;
 }
@@ -44,9 +48,10 @@
 }
 
 .footer .social .social-logo {
-    margin: 22px 130px 17px 130px;;
+    padding: 22px 130px 17px 130px;;
 
 }
+
 
 .footer .widgets {
     column-count: 4;
@@ -63,7 +68,7 @@
 
 }
 
-.footer .widgets .widget .title {
+.footer .widgets .widget .widget-title {
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: bold;

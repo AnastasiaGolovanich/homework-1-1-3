@@ -12,8 +12,11 @@
     .our-team .sub-title {
         margin-right: 36px;
     }
+    .footer .title {
+        margin-left: 174px;
+    }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     /*Header*/
     .logo {
         padding-left: 46px;
@@ -117,7 +120,7 @@
 
     .service .description {
         width: 90%;
-        padding: 39px 36px 18px 44px;
+        margin: 39px 36px 18px 44px;
     }
 
     .service .description .title {
@@ -140,6 +143,11 @@
     .service .feature {
         width: 20.79%;
         padding: 75px 20px 69px 20px;
+
+    }
+    .service .feature:nth-child(1), .service .feature:nth-child(2),
+    .service .feature:nth-child(3), .service .feature:nth-child(4){
+        border-top: 1px solid #F9F6E5;
     }
 
     /*Our projects block*/
@@ -257,7 +265,7 @@
         margin-top: 67px;
     }
     .footer .social .social-logo {
-        margin: 22px 97px 13px 97px;
+        padding: 22px 97px 13px 97px;
     }
     .footer .widgets {
 
@@ -274,7 +282,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .intro {
         margin: 76px 50px 49px 105px;
     }
@@ -408,7 +416,7 @@
         margin-top: 40px;
     }
     .footer .social .social-logo {
-        margin: 24px 65px 16px 65px;
+        padding: 24px 65px 16px 65px;
     }
     .footer .title {
         font-size: 26px;
@@ -431,7 +439,7 @@
         margin-left: 29px;
     }
 }
-@media (max-width: 640px) {
+@media (max-width: 767px) {
     .logo {
         padding-left: 51px;
         padding-bottom: 15px;
@@ -480,7 +488,7 @@
         margin-top: 35px;
     }
     .service .description {
-        padding: 12px 20px 37px 30px;
+        margin: 12px 20px 37px 30px;
         text-align: center;
     }
     .service .description .title {
@@ -588,16 +596,17 @@
     .footer .title {
         font-size: 24px;
         line-height: 27px;
+        margin-left: 80px;
     }
     .footer .social .social-logo {
-        margin: 21px 50px 10px 50px;
+        padding: 21px 50px 10px 50px;
     }
     .footer .widgets {
         margin-top: 43px;
         column-width: 267px;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 639px) {
     .logo {
         padding-left: 21px;
         padding-bottom: 5px;
@@ -644,13 +653,16 @@
         margin-top: 37px;
     }
     .service .description {
-        padding: 12px 15px 37px 15px;
+        margin: 12px 15px 37px 15px;
         text-align: center;
     }
     .service .description .title {
         letter-spacing: 0;
         font-size: 22px;
         line-height: 58px;
+    }
+    .service .description .title:after{
+        display: block;
     }
     .service .description .sub-title {
         margin-top: 54px;
@@ -659,10 +671,13 @@
         margin-bottom: 0;
     }
     .service .description .sub-title:after {
+        display: none;
         width: 95px;
         height: 7px;
         bottom: 90px;
-        left: 90px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
     }
     .service .sub-title-2 {
         font-size: 15px;
@@ -672,6 +687,10 @@
     }
     .service .feature {
         padding: 102px 107px 88px 107px;
+        border-right: 1px solid #F9F6E5;
+    }
+    .service .feature:nth-child(2){
+        border-top: rgba(204, 204, 204, 0);
     }
     .service .feature .feature-title {
         font-size: 14px;
@@ -763,8 +782,8 @@
         margin-bottom: 38px;
     }
     .responsive {
-        /* -webkit-column-count: 4; */
-        /* -moz-column-count: 4; */
+         /*-webkit-column-count: 1;*/
+         /*-moz-column-count: 1;*/
         column-count: 1;
     }
 
@@ -795,6 +814,8 @@
         font-size: 19px;
         line-height: 20px;
         text-align: center;
+        margin-left: 0;
+        align-self: center;
 
     }
     .footer .social {
@@ -805,7 +826,7 @@
         margin-top: 30px;
     }
     .footer .social .social-logo {
-        margin: 10px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
     }
     .footer .widgets {
         margin-top: 30px;
@@ -835,4 +856,13 @@
         margin-left: 0;
         margin-top: 20px;
     }
+}
+@media (min-width: 1500px) {
+    .container-xxl {
+        width: 1500px;
+        margin: 0 auto;
+    }
+    /*.arrow{*/
+    /*    display: none;*/
+    /*}*/
 }
