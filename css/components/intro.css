@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 107px 270px 83px 270px;
+    margin: 93px 270px 83px 270px;
 }
 
 .intro-title {
@@ -59,17 +59,19 @@
 
     color: #FFFFFF;
 
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .intro-button {
-    width: 210px;
-    height: 55px;
+    width: 200px;
+    height: 50px;
 
     background: #2B4074;
-    border-radius: 3px;
+    border-radius: 6px;
 
-    margin-top: 30px;
+    margin-top: 28px;
+    border: none;
+    cursor: pointer;
 }
 
 .read-more {
@@ -91,8 +93,8 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding-top: 130px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 80px;
     justify-content: center;
     align-items: center;
 }
@@ -111,9 +113,9 @@
 
 .intro-block .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
     /*background: url("../../images/Oval.png") 100% 100% no-repeat!important;*/
-    width: 12px;
-    height: 12px;
-    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
     object-fit: cover;
 }
 
@@ -121,8 +123,8 @@
     /*background: url("../../images/Oval-hover.png") 100% 100% no-repeat!important;*/
     border: 1px solid white;
     border-radius: 50px;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
 }
 
 .owl-theme .owl-dots, .owl-theme .owl-nav {
@@ -148,12 +150,19 @@
 
     background: #2B4074;
 }
+.arrow-top:hover, .arrow-bottom:hover{
+    background: #F9F6E5;
+}
+.arrow-top:hover .arrow-forward2, .arrow-bottom:hover .arrow-back2{
+    background: #F9F6E5;
+}
 
 .arrow-bottom {
     width: 70px;
     height: 70px;
 
-    background: #F9F6E5;
+    /*background: #F9F6E5;*/
+    background: #2B4074;
     display: flex;
     flex-direction: row;
 }
@@ -179,7 +188,7 @@
     width: 18px;
     height: 18px;
 
-    background: #F9F6E5;
+    background: #2B4074;
 
     transform: rotate(135deg);
 }

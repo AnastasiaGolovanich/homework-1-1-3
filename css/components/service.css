@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     width: 34%;
-    margin: 90px 62px 122px 62px;
+    margin: 84px 62px 136px 62px;
     text-align: left;
 }
 
@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 20px 80px 20px;
+    padding: 70px 20px 70px 20px;
     margin: 0 auto;
     position: relative;
 }
@@ -94,7 +94,7 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 18px;
 
     text-align: center;
@@ -161,9 +161,9 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
-    line-height: 28px;
-    margin-top: 73px;
+    font-size: 24px;
+    line-height: 27px;
+    margin-top: 65px;
     margin-bottom: 36px;
     position: relative;
     color: #4A4A4A;
@@ -172,10 +172,10 @@
 
 .service .description .sub-title:after {
     content: "";
-    width: 107px;
-    height: 10px;
+    width: 100px;
+    height: 8px;
     position: absolute;
-    bottom: -40px;
+    bottom: -38px;
     left: 0;
 
     background: #2B4074;
@@ -185,10 +185,10 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-    margin-top: 35px;
-    margin-right: 42px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 32px;
+    margin-right: 36px;
 
     color: #797979;
 }

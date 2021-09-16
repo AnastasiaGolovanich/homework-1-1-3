@@ -3,7 +3,7 @@
 }
 .footer {
 
-    padding: 165px 0px 106px 0px;
+    padding: 155px 0 98px 0;
     position: relative;
     display: flex;
     align-items: center;
@@ -14,9 +14,9 @@
 .footer:before {
     position: absolute;
     content: url("../../images/Group 2 1.png");
-    width: 240px;
+    width: 230px;
     height: 60px;
-    margin-top: -198px;
+    margin-top: -185px;
     background: #2B4074;
     display: flex;
     justify-content: center;
@@ -31,6 +31,7 @@
     letter-spacing: 2px;
     align-self: flex-start;
     margin-left: 150px;
+    text-decoration: none;
 
     color: #FFFFFF;
 }
@@ -43,12 +44,12 @@
     border-bottom: 1px solid #7EBF84;
     border-top: 1px solid #7EBF84;
 
-    margin-top: 87px;
+    margin-top: 80px;
 
 }
 
 .footer .social .social-logo {
-    padding: 22px 130px 17px 130px;;
+    padding: 22px 130px 15px 130px;;
 
 }
 
@@ -56,7 +57,7 @@
 .footer .widgets {
     column-count: 4;
     column-width: 280px;
-    margin-top: 88px;
+    margin-top: 80px;
 
 }
 
@@ -88,6 +89,7 @@
     line-height: 20px;
 
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .move-to-top {
@@ -97,7 +99,7 @@
     flex-direction: row;
     justify-content: flex-end;
 
-    padding: 13px 136px 11px 0px;
+    padding: 13px 136px 4px 0px;
 }
 .move-to-top .arrow{
     margin-left: 14px;

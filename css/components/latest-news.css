@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    padding: 60px 135px 36px 135px;
+    padding: 50px 135px 12px 135px;
 }
 
 .latest-news .title {
@@ -23,12 +23,12 @@
 }
 
 .latest-news .line {
-    width: 105px;
+    width: 100px;
     height: 9px;
 
     background: #2B4074;
     margin-top: 20px;
-    margin-bottom: 122px;
+    margin-bottom: 114px;
 }
 
 
@@ -41,7 +41,7 @@
 
 .latest-news .gallery {
     border-radius: 4px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     display: inline-block;
     outline-offset: -8px;
     outline: 8px solid rgba(43, 64, 116, 0);
@@ -57,6 +57,7 @@
 
     outline: 8px solid rgba(43, 64, 116, 1);
     outline-offset: -8px;
+    cursor: pointer;
 }
 
 .latest-news .gallery:hover > .desc {

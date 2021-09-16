@@ -1,4 +1,12 @@
-
+@media (min-width: 1500px) {
+    .container-xxl {
+        width: 1500px;
+        margin: 0 auto;
+    }
+    /*.arrow{*/
+    /*    display: none;*/
+    /*}*/
+}
 @media (max-width: 1280px) {
     .service .feature-hover .read-more {
         font-size: 14px;
@@ -13,7 +21,7 @@
         margin-right: 36px;
     }
     .footer .title {
-        margin-left: 174px;
+        margin-left: 45px;
     }
 }
 @media (max-width: 1279px) {
@@ -33,7 +41,7 @@
 
     /*Intro block*/
     .intro {
-        margin: 94px 140px 78px 197px;
+        margin: 94px 180px 78px 180px;
     }
 
     .intro-title {
@@ -284,7 +292,7 @@
 
 @media (max-width: 1023px) {
     .intro {
-        margin: 76px 50px 49px 105px;
+        margin: 76px 220px 49px 220px;
     }
     .intro-title {
         font-size: 54px;
@@ -439,7 +447,7 @@
         margin-left: 29px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .logo {
         padding-left: 51px;
         padding-bottom: 15px;
@@ -618,12 +626,12 @@
         margin-right: 20px;
     }
     .intro {
-        margin: 42px 25px 17px 25px;
+        margin: 42px 180px 17px 180px;
     }
     .intro-title {
         font-size: 25px;
         line-height: 26px;
-        letter-spacing: -2px;
+        letter-spacing: 0;
     }
     .intro .line {
         width: 58px;
@@ -633,8 +641,12 @@
     .rectangle .arrow, .intro-button {
         display: none;
     }
-    .pagination {
+    .pagination, .owl-dots{
         padding-top: 33px;
+        padding-bottom: 20px;
+    }
+    .arrow{
+        display: none;
     }
     .promo {
         padding: 38px 20px 37px 20px;
@@ -762,7 +774,7 @@
         margin-left: 30px;
         text-align: center;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 23px;
     }
     .our-team button {
         width: 217px;
@@ -782,9 +794,15 @@
         margin-bottom: 38px;
     }
     .responsive {
-         /*-webkit-column-count: 1;*/
-         /*-moz-column-count: 1;*/
+         -webkit-column-count: 1;
+         -moz-column-count: 1;
         column-count: 1;
+    }
+    .latest-news .gallery{
+        display: block;
+    }
+    .gallery .round{
+        width: 100%;
     }
 
     .testimonial {
@@ -856,13 +874,4 @@
         margin-left: 0;
         margin-top: 20px;
     }
-}
-@media (min-width: 1500px) {
-    .container-xxl {
-        width: 1500px;
-        margin: 0 auto;
-    }
-    /*.arrow{*/
-    /*    display: none;*/
-    /*}*/
 }
