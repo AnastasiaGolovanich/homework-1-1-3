@@ -3,9 +3,12 @@
         width: 1500px;
         margin: 0 auto;
     }
-    /*.arrow{*/
-    /*    display: none;*/
-    /*}*/
+    .group_3 .arrow, .group_3 .arrow-behind-container {
+        display: none;
+    }
+    .group_3 .arrow-behind-container{
+        display: flex;
+    }
 }
 @media (max-width: 1280px) {
     .service .feature-hover .read-more {

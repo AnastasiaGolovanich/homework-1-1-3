@@ -8,7 +8,7 @@
     background-image: url("../../images/Group_3.png");
     background-repeat: no-repeat;
     background-size: cover;
-
+    position: relative;
 }
 
 .rectangle {
@@ -132,16 +132,23 @@
 }
 
 
-
 /* Style for arrow buttons*/
-.arrow {
-
+.group_3 .arrow, .group_3 .arrow-behind-container {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: -70px;
+    /*margin-left: -70px;*/
     align-items: flex-end;
     z-index: 2;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.group_3 .arrow-behind-container{
+    display: none;
 }
 
 .arrow-top {
@@ -150,10 +157,12 @@
 
     background: #2B4074;
 }
-.arrow-top:hover, .arrow-bottom:hover{
+
+.arrow-top:hover, .arrow-bottom:hover {
     background: #F9F6E5;
 }
-.arrow-top:hover .arrow-forward2, .arrow-bottom:hover .arrow-back2{
+
+.arrow-top:hover .arrow-forward2, .arrow-bottom:hover .arrow-back2 {
     background: #F9F6E5;
 }
 
