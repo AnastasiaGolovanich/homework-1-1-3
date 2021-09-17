@@ -105,13 +105,13 @@
     margin-left: 14px;
     margin-top: 5px;
 }
-.footer .rectangle-1 {
+.move-to-top .rectangle-1 {
     width: 15px;
     height: 15px;
     background: #2B4074;
     transform: rotate(45deg);
 }
-.footer .rectangle-2 {
+.move-to-top .rectangle-2 {
     width: 15px;
     height: 15px;
     background: #F9F6E5;

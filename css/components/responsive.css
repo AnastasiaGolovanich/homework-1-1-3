@@ -37,7 +37,7 @@
     .menu-button {
         margin-right: 40px;
     }
-    .arrow {
+    .group_3 .arrow {
         margin-left: -55px;
     }
 
@@ -310,7 +310,7 @@
     .intro-button {
         margin-top: 29px;
     }
-    .arrow {
+    .group_3 .arrow{
         margin-left: -53px;
     }
     .arrow-top, .arrow-bottom {
@@ -474,7 +474,7 @@
         background: #2B4074;
         margin-top: 5px;
     }
-    .arrow {
+    .group_3 .arrow {
         margin-left: -55px;
     }
     .arrow-top, .arrow-bottom {

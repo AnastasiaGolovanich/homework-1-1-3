@@ -133,19 +133,25 @@
 
 
 /* Style for arrow buttons*/
-.group_3 .arrow, .group_3 .arrow-behind-container {
+/*.group_3 .arrow, .group_3 .arrow-behind-container*/
+.group_3 .arrow-behind-container {
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*margin-left: -70px;*/
     align-items: flex-end;
-    z-index: 2;
-
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+}
+.group_3 .arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -70px;
+    z-index: 1;
+
 }
 .group_3 .arrow-behind-container{
     display: none;
@@ -164,6 +170,7 @@
 
 .arrow-top:hover .arrow-forward2, .arrow-bottom:hover .arrow-back2 {
     background: #F9F6E5;
+    /*z-index: 1;*/
 }
 
 .arrow-bottom {
