@@ -18,17 +18,21 @@
     font-size: 46px;
     line-height: 56px;
     text-align: center;
-
+    margin-bottom: 125px;
     color: #4A4A4A;
+    position: relative;
 }
-
-.latest-news .line {
+.latest-news .title:after {
+    content: "";
+    position: absolute;
     width: 100px;
     height: 9px;
 
     background: #2B4074;
-    margin-top: 20px;
-    margin-bottom: 114px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 
@@ -73,30 +77,10 @@
 .latest-news .gallery:hover > .info-icon {
     display: block;
 }
-
-/*.latest-news .gallery-hover {*/
-
-/*    width: 100%;*/
-/*    height: auto;*/
-/*}*/
-
-/*.latest-news .gallery-hover .info-button {*/
-/*    width: 33px;*/
-/*    height: 32px;*/
-/*    background-image: url("../../images/info-button.png");*/
-/*    background-repeat: no-repeat;*/
-/*    margin: -200px 80px 150px 80px;*/
-/*}*/
-
-/*.latest-news .gallery img {*/
-/*    width: 100%;*/
-/*    height: auto;*/
-/*    margin-bottom: -3px;*/
-/*}*/
-
 .latest-news .gallery .info-icon {
     display: none;
     background-image: url("../../images/icons.png");
+    background-color: rgba(255, 250, 250, 0);
     width: 33px;
     height: 32px;
     background-repeat: no-repeat;
@@ -106,6 +90,7 @@
     bottom: 0;
     right: 0;
     margin: auto;
+    border: none;
 }
 
 div .desc {

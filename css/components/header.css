@@ -23,19 +23,28 @@
 /*Menu-button style*/
 .menu-button {
     width: 40px;
-    height: 40px;
+    /*height: 40px;*/
 
     background: #FFFFFF;
     border-radius: 4px;
 
     cursor: pointer;
     margin-right: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 0 13px 0;
+
 }
 
-.button-text {
-    /*  */
-    width: 13px;
-    height: 13px;
-    margin: 13px 13px 13px 14px;
-
+.burger-menu{
+    width: 14px;
+    height: 2px;
+    background: #2B4074;
+    margin: 2px 0 0 13px;
+    list-style-type: none;
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }

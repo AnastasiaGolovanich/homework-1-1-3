@@ -1,4 +1,5 @@
 .background-our-project{
+    background: #a6b0cb;
     background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
 
 }
@@ -22,12 +23,16 @@
     position: relative;
 }
 
-.our-project .line {
-
+.our-project h2:after {
+    content: "";
     position: absolute;
     width: 100px;
     height: 8px;
-    margin-top: 82px;
+    top: 82px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
     background: #FFFFFF;
 }
 
@@ -137,6 +142,7 @@
     height: 32px;
     background-repeat: no-repeat;
     background-size: cover;
+    border: none;
 }
 
 .our-project .project .search-button {
@@ -145,6 +151,7 @@
     height: 32px;
     background-repeat: no-repeat;
     background-size: cover;
+    border: none;
 }
 
 .our-project .projects .project:hover > .image-hover {

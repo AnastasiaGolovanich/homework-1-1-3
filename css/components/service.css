@@ -15,12 +15,8 @@
 
 .service .features {
     display: flex;
-    /*flex-direction: column;*/
-    flex-wrap: wrap;
-    /*width: 77%;*/
-    /*border-top: 1px solid #F9F6E5;*/
-    /*column-count: 2;*/
-}
+     flex-wrap: wrap;
+   }
 
 .service .feature {
     width: 19.79%;
@@ -35,29 +31,20 @@
     padding: 70px 20px 70px 20px;
     margin: 0 auto;
     position: relative;
+
 }
 
 .service .feature-hover {
     position: absolute;
-    /*display: none;*/
-    background: #FFFFFF;
+    background: rgba(255, 255, 255, 0);
     margin-top: -68px;
     opacity: 0%
 }
 
-.service .feature:nth-child(7):hover > .feature-hover .sub-title {
-    margin-top: 20px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 90%;
-    line-height: 18px;
-
-    text-align: center;
-
-    color: #9B9B9B;
-}
+.service .feature:nth-child(7):hover > p {
+    margin-top: 5px;
+    font-size: 16px;
+   }
 
 .service .feature:hover > .feature-hover {
     width: 87%;
@@ -73,6 +60,13 @@
 .service .feature-hover .feature-image {
     margin-top: 25px;
 }
+.service .feature:hover > img{
+    margin-top: -40px;
+}
+.service .feature:hover > p{
+    margin-top: 20px;
+}
+
 
 .service .feature-hover .feature-title-hover {
     margin-top: 15px;
@@ -89,7 +83,7 @@
 }
 
 .service .feature-hover .sub-title {
-    margin-top: 37px;
+    margin-top: 145px;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -115,12 +109,9 @@
     letter-spacing: 2px;
     white-space: nowrap;
     color: #2B4074;
+    text-decoration: none;
 }
 
-.service .feature .feature-image {
-    height: 64px;
-    width: 64px;
-}
 
 .service .feature .feature-title {
 
@@ -131,6 +122,7 @@
     line-height: 20px;
     margin-top: 37px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .service .description .title {
